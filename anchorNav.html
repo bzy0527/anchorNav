@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>anchorNav</title>
+
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.js"></script>
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.data.js"></script>
+    <script src="https://lc.dbazure.cn/dbfx/dbfx.commodel.js"></script>
+    <script src="https://lc.dbazure.cn/dbfxui/dbfx.web.controls.js"></script>
+    <!--<link rel="stylesheet" href="pagination.css">-->
+    <script src="anchorNav.js"></script>
+</head>
+<body>
+<!--<div id="div" style="width: 800px;height: 200px;border: 1px solid red"></div>-->
+
+<script>
+    var an = new DBFX.Web.Controls.AnchorNav();
+
+
+    an.ShowTexts = ["☆","A茶品","Bbbb","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","#"];
+
+
+    var divE = document.getElementById('div');
+
+
+    an.VisualElement.style.position = "absolute";
+    an.VisualElement.style.right = "0px";
+    an.VisualElement.style.top = "30px";
+
+    document.body.appendChild(an.VisualElement);
+
+    an.SetHeight("80%");
+    an.SetWidth("60px");
+
+    an.SetFontSize("16px");
+    // an.SetColor("#666");
+
+
+
+</script>
+</body>
+</html>
