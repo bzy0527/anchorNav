@@ -617,7 +617,7 @@ DBFX.Serializer.AnchorNavSerializer = function () {
         DBFX.Serializer.DeSerialProperty("SelectedC", c, xe);
         DBFX.Serializer.DeSerialProperty("SelectedTextC", c, xe);
         //对方法反序列化
-        DBFX.Serializer.DeSerializeCommand("Click", c, xe);
+        DBFX.Serializer.DeSerializeCommand("Click", xe, c);
     }
 
 }

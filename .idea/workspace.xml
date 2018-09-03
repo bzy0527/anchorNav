@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cb0e06ae-7b77-4bbb-b62e-8eb860ef0559" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/anchorNav.js" afterPath="$PROJECT_DIR$/anchorNav.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,10 +17,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="anchorNav.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="anchorNav.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anchorNav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="505">
               <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
               <folding />
             </state>
@@ -29,18 +30,18 @@
       <file leaf-file-name="anchorNav.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anchorNav.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5542">
-              <caret line="326" column="5" lean-forward="false" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
+            <state relative-caret-position="755">
+              <caret line="594" column="14" lean-forward="false" selection-start-line="594" selection-start-column="14" selection-end-line="594" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnchorNavDesigner.scrp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AnchorNavDesigner.scrp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AnchorNavDesigner.scrp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="247">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +100,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="257" />
+    <option name="x" value="81" />
     <option name="y" value="42" />
     <option name="width" value="1375" />
     <option name="height" value="925" />
@@ -120,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +133,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,15 +169,16 @@
       <option name="presentableId" value="Default" />
       <updated>1532415048658</updated>
       <workItem from="1532415050225" duration="57675000" />
-      <workItem from="1532915820487" duration="248000" />
+      <workItem from="1532915820487" duration="2178000" />
+      <workItem from="1534120880077" duration="1446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57923000" />
+    <option name="totallyTimeSpent" value="61299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="42" width="1375" height="925" extended-state="1" />
+    <frame x="81" y="42" width="1375" height="925" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -219,16 +221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/anchorNav.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5542">
-          <caret line="326" column="5" lean-forward="false" selection-start-line="326" selection-start-column="5" selection-end-line="326" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        <state relative-caret-position="10098">
+          <caret line="594" column="14" lean-forward="false" selection-start-line="594" selection-start-column="14" selection-end-line="594" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -241,17 +235,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="2054" column="4" lean-forward="false" selection-start-line="2054" selection-start-column="4" selection-end-line="2054" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="542" column="4" lean-forward="false" selection-start-line="542" selection-start-column="4" selection-end-line="542" selection-end-column="4" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -282,8 +269,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AnchorNavDesigner.scrp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="238">
           <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="2054" column="4" lean-forward="false" selection-start-line="2054" selection-start-column="4" selection-end-line="2054" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="542" column="4" lean-forward="false" selection-start-line="542" selection-start-column="4" selection-end-line="542" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1139">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AnchorNavDesigner.scrp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anchorNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="594" column="14" lean-forward="false" selection-start-line="594" selection-start-column="14" selection-end-line="594" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anchorNav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
           <folding />
         </state>
       </provider>
