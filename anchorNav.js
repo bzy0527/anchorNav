@@ -9,6 +9,7 @@ DBFX.Web.Controls.AnchorNav = function (n) {
     an.ClassDescriptor.Serializer = "DBFX.Serializer.AnchorNavSerializer";
 
     an.VisualElement = document.createElement("DIV");
+    an.VisualElement.className = "AnchorNav";
     an.OnCreateHandle();
     // an.OnCreateHandle = function () {
     //
@@ -71,13 +72,10 @@ DBFX.Web.Controls.AnchorNav = function (n) {
             marginTB = 0;
         }
 
-
         an.container.innerHTML = "";
-
 
         for(var i=0;i<count;i++){
             var liE = document.createElement('li');
-
             var span = document.createElement('span');
             span.innerText = an.showTexts[i][0];
             //添加事件处理
@@ -133,8 +131,6 @@ DBFX.Web.Controls.AnchorNav = function (n) {
             an.container.appendChild(liE);
         }
     }
-
-
 
     an.handleTouchEnter = function (e) {
         console.log('handleTouchEnter');
@@ -331,8 +327,6 @@ DBFX.Web.Controls.AnchorNav = function (n) {
     }
 
 
-
-
     //TODO:根据点击的按钮位置 更新提示标签的位置
     an.refreshTipEPos = function (span) {
 
@@ -352,8 +346,6 @@ DBFX.Web.Controls.AnchorNav = function (n) {
         var div_y = divRectObj.y,
             div_x = divRectObj.x,
             div_maxX = div_x + divRectObj.width;
-
-
 
         //提示标签的宽高
         an.tipEW = w*3;
@@ -378,7 +370,6 @@ DBFX.Web.Controls.AnchorNav = function (n) {
 
     }
 
-
     an.preTouchedSpan = {};
     an.curTouchedSpan = {};
 
@@ -395,41 +386,41 @@ DBFX.Web.Controls.AnchorNav = function (n) {
 
         //提示标签
         an.tipE = document.createElement('DIV');
+        an.tipE.className = "AnchorNav_Tip";
         an.VisualElement.appendChild(an.tipE);
         // an.tipE.style.border = "1px solid red";
         an.tipE.style.width = an.tipEW+"px";
         an.tipE.style.height = an.tipEH+"px";
+        an.tipE.style.lineHeight = an.tipEH+"px";
+
         an.tipE.style.position = "absolute";
         an.tipE.style.top = "30px";
         an.tipE.style.left = "100px";
-        // an.tipE.style.backgroundColor = "#cbcbcb";
         an.tipE.style.textAlign = "center";
-        an.tipE.style.lineHeight = an.tipEH+"px";
+
         //默认隐藏
         an.tipE.hidden = true;
-
         //
         an.leftTip = document.createElement('DIV');
-        // an.leftTip.style.border = "1px solid yellow";
-        an.leftTip.style.backgroundColor = "#cbcbcb";
+        an.leftTip.className = "AnchorNav_LeftTip";
+
+        // an.leftTip.style.position = "absolute";
+        // an.leftTip.style.borderRadius = "50%";
+        // an.leftTip.style.boxSizing = "border-box";
+        // an.leftTip.style.zIndex = "30";
+        // an.leftTip.style.backgroundColor = "#cbcbcb";
 
         an.leftTip.style.width = an.tipEH+"px";
         an.leftTip.style.height = an.tipEH+"px";
-        an.leftTip.style.position = "absolute";
-        an.leftTip.style.borderRadius = "50%";
-        an.leftTip.style.boxSizing = "border-box";
-        an.leftTip.style.zIndex = "30";
         an.tipE.appendChild(an.leftTip);
 
         an.rightTip = document.createElement('DIV');
         an.rightTip.style.border = "1px solid blue";
+        an.rightTip.className = "AnchorNav_RightTip";
+
         // an.rightTip.style.width = an.tipEW*0.4+"px";
         // an.rightTip.style.height = an.tipEH*0.8+"px";
         // an.rightTip.style.boxSizing = "border-box";
-
-        an.rightTip.style.width = 0+"px";
-        an.rightTip.style.height = 0+"px";
-        an.rightTip.style.position = "absolute";
 
         //顶部和底部边框宽度
         var bTW = an.tipEW*0.6*0.9*0.5;
@@ -458,28 +449,10 @@ DBFX.Web.Controls.AnchorNav = function (n) {
 
     an.onload = function () {
         var anE = an.VisualElement;
-        anE.style.width = an.aWidth;
-        anE.style.height = an.aHeight;
-        // anE.style.border = "1px solid #666";
-        // anE.style.overflow = "hidden";
-        anE.style.textAlign = "center";
-        anE.style.fontSize = "12px";
-        anE.style.color = "#394bdc";
-        anE.style.fontWeight = "bold";
-        anE.style.boxSizing = "border-box";
 
         an.container = document.createElement("ul");
-        // an.container.classList.add("db-pagination");
-        an.container.style.listStyle = "none";
-        an.container.style.padding = "0px";
-        an.container.style.margin = "0px";
-        an.container.style.textAlign = "center";
-        an.container.style.width = "100%";
-        an.container.style.height = "100%";
-        an.container.style.overflow = "hidden";
-        an.container.style.display = "inline-block";
+        an.container.className = "AnchorNav_Container";
         anE.appendChild(an.container);
-
 
         //设置提示标签样式
         an.setTipStyle();
